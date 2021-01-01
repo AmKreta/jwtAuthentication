@@ -4,7 +4,7 @@ url:-https://jwtauthentication.herokuapp.com
 
 help url:- https://jwtauthentication.herokuapp.com/help
 
-Routes:\
+#Routes:-
  |Method     |Route                                   | req.body                              |response|
  |------|------|------|------|
  |GET        |/getTokens?userId=${mongoDb object Id}  | null                                  |{accessToken, refreshToken}|
