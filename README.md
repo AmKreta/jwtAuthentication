@@ -5,11 +5,12 @@
 **help url:-** https://jwtauthentication.herokuapp.com/help
 
 ##**Routes:** 
- **Method      Route                                   req.body                             response** 
-  -GET       /getTokens?userId=${mongoDb object Id}   null                                 {accessToken, refreshToken}
-  -POST      /verifyTokens                            {userId, accessToken}                {sucess:true/failed, message:'jwt verifies/err', payload}
-  -DELETE    /deleteTokens                            {userId, accessToken}                {sucess:true/failed, message:'token deleted/err', payload}
-  -PUT       /genNewTokens                            {userId, accessToken, RefreshToken}  {sucess:true/failed, message:'generated new tokens/err', payload}
+ **Method   |   Route                               |    req.body                           |   response** 
+ ---|---|---+---
+  -GET      | /getTokens?userId=${mongoDb object Id}|   null                                | {accessToken, refreshToken}
+  -POST     | /verifyTokens                         |   {userId, accessToken}               | {sucess:true/failed, message:'jwt verifies/err', payload}
+  -DELETE   | /deleteTokens                         |   {userId, accessToken}               | {sucess:true/failed, message:'token deleted/err', payload}
+  -PUT      | /genNewTokens                         |   {userId, accessToken, RefreshToken} | {sucess:true/failed, message:'generated new tokens/err', payload}
 
 ##**instructions:-**
  -####-The api only works for unique mongoDB.Schema.Types.ObjectID.
