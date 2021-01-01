@@ -16,7 +16,7 @@ instructions:-\
  -request for new tokens will fail if old access tokens are still valid or refresh token is invalid or the access token sent is not the last one which was issued.\
  -request for verification and deletion will fail if proper userid and access tokens are not sent in req.body\
  -send request in followinf fashion:-\
-       -generate new tokens when user logs in\
-       -verify tokens for every request\
-       -if verification fails generate new tokens and verify again\
-       -delete tokens when user logs out
+       --generate new tokens when user logs in\
+       --verify tokens for every request\
+       --if verification fails generate new tokens and verify again\
+       --delete tokens when user logs out
