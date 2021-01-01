@@ -1,8 +1,8 @@
 ## jwtAuthentication
 
-**url:-** https://jwtauthentication.herokuapp.com
+***url:-** https://jwtauthentication.herokuapp.com
 
-**help url:-** https://jwtauthentication.herokuapp.com/help
+***help url:-** https://jwtauthentication.herokuapp.com/help
 
 ***Routes:** 
  ***Method      Route                                   req.body                             response** 
